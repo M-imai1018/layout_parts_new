@@ -1,5 +1,24 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.white {
+  width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: #eff3f4;
+  box-sizing: border-box;
+}
+
+.main_content_text {
+  font-size: 13px;
+  line-height: 22px;
+}
+
 
 /* 回答はここに書いてね */
