@@ -2,4 +2,37 @@
 
 /* 回答はここに書いてね */
 
+.q6_q1main {
+  text-align: center;
+}
+
+.q6_blue {
+  display: inline-block;
+  width: 90px;
+  background-color: #e6f2ff;
+  padding: 10px;
+}
+
+.q6_q1maine {
+  width: 90px;
+  background-color: #e6f2ff;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.q6_tab {
+  width: 300px;
+  height: 200px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.q6_tabsub {
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px;
+}
+
 /* 回答はここに書いてね */
