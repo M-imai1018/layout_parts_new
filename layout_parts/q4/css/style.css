@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.q4_main {
+.q4_main,.q4_maine {
   display: table;
   width: 100vw;
   table-layout: fixed;
@@ -28,14 +28,6 @@
   background-color: #b6d8ed;
   width: 100px;
   padding: 20px;
-}
-
-.q4_maine {
-  display: table;
-  width:100vw;
-  table-layout: fixed;
-  text-align: center;
-  border: 20px solid #f5f5f5;
 }
 
 .q4_maine_variable {
