@@ -18,6 +18,7 @@
 .main_content_text {
   font-size: 18px;
   line-height: 22px;
+  white-space: normal;
 }
 
 
