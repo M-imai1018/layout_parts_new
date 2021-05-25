@@ -21,6 +21,10 @@
   text-align: center;
 }
 
+.q6_head {
+  display: table;
+}
+
 .q6_tab {
   width: 300px;
   height: 200px;
@@ -33,6 +37,41 @@
   display: inline-block;
   background-color: #fff;
   padding: 10px;
+}
+
+.q6_flexmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.q6_flexbox {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.q6_rel {
+  position: relative;
+}
+
+.q6_posi {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.q6_varia {
+  position: relative;
+}
+
+.q6_muutuv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 /* 回答はここに書いてね */
