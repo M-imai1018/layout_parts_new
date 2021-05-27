@@ -9,10 +9,9 @@
 
 .q1__content {
   width: 900px;
-  margin: auto;
+  margin: 0 auto;
   padding: 20px;
   background-color: #eff3f4;
-  box-sizing: border-box;
 }
 
 .q1__content__box {
