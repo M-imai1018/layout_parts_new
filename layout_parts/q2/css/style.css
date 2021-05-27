@@ -12,13 +12,12 @@
   margin: auto;
   padding: 20px;
   background-color: #eff3f4;
-  box-sizing: border-box;
 }
 
 .main_content_text {
   font-size: 18px;
   line-height: 22px;
-  white-space: normal;
+  word-break: break-all;
 }
 
 
