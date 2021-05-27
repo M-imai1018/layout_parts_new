@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .q3_table {
-  table-layout: auto;
+  table-layout: fixed;
   width: 100%;
   text-align: center;
 }
@@ -9,13 +9,13 @@
 .q3_th, .q3_td {
   border: 1px solid #dedede;
   padding: 10px;
+  vertical-align: middle;
 }
 
 .q3_td {
   font-size: 16px;
   line-height: 22px;
-  font-size: 16px;
-  line-height: 22px;
+  text-align: center;
 }
 
 .q3_th, .q3_td:first-child{
