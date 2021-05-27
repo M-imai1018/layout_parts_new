@@ -2,51 +2,53 @@
 
 /* 回答はここに書いてね */
 
-.q4_main,.q4_maine {
-  display: table;
-  width: 100vw;
-  table-layout: fixed;
-  text-align: center;
-  border: 20px solid #f5f5f5;
+.q4_white {
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
-.q4_main_fix {
+.q4_box {
+  display: table;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.q4_box:first-child {
+  margin-top: 0;
+}
+
+.q4_main {
   display: table-cell;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.q4_fix {
   background-color: #fdc8b8;
   width: 100px;
-  padding: 20px;
 }
 
-.q4_main_variable {
-  display: table-cell;
+.q4_variable {
   background-color: #e0abd9;
-  padding: 20px;
 }
 
-.q4_main_fixed {
-  display: table-cell;
+.q4_fix2 {
   background-color: #b6d8ed;
   width: 100px;
-  padding: 20px;
 }
 
-.q4_maine_variable {
-  display: table-cell;
+.q4_variable2 {
   background-color: #e5d32e;
-  padding: 20px;
 }
 
-.q4_maine_variabled {
-  display: table-cell;
+.q4_variable3 {
   background-color: #ec8f9a;
-  padding: 20px;
 }
 
-.q4_maine_fix {
-  display: table-cell;
+.q4_fix3 {
   background-color: #8fdcad;
   width: 500px;
-  padding: 20px;
 }
 
 /* 回答はここに書いてね */
