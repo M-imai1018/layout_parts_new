@@ -6,17 +6,17 @@
   text-align: center;
 }
 
-.q6_blue {
+.q6_text_align {
   display: inline-block;
   width: 90px;
-  background-color: #e6f2ff;
-  padding: 10px;
+  background-color: #E6F2FF;
+  padding: 10px 0;
 }
 
-.q6_q1maine {
+.q6_margin {
   width: 90px;
   background-color: #e6f2ff;
-  padding: 10px;
+  padding: 10px 0;
   margin: 0 auto;
   text-align: center;
 }
@@ -25,7 +25,7 @@
   display: table;
 }
 
-.q6_tab {
+.q6_table {
   width: 300px;
   height: 200px;
   display: table-cell;
@@ -33,28 +33,28 @@
   text-align: center;
 }
 
-.q6_tabsub {
+.q6_table_main {
   display: inline-block;
   background-color: #fff;
   padding: 10px;
 }
 
-.q6_flexmain {
+.q6_flex_main {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.q6_flexbox {
+.q6_flex_box {
   background-color: #fff;
   padding: 10px;
 }
 
-.q6_rel {
+.q6_relative {
   position: relative;
 }
 
-.q6_posi {
+.q6_fixed {
   position: absolute;
   top: 0;
   right: 0;
@@ -63,11 +63,11 @@
   margin: auto;
 }
 
-.q6_varia {
+.q6_variable {
   position: relative;
 }
 
-.q6_muutuv {
+.q6_variable_main {
   position: absolute;
   top: 50%;
   left: 50%;
