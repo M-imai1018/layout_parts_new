@@ -20,5 +20,17 @@
   word-break: break-all;
 }
 
+.q2_balloon {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.q2_picture {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
 
 /* 回答はここに書いてね */
