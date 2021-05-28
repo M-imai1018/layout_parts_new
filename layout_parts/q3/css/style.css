@@ -6,30 +6,30 @@
   text-align: center;
 }
 
-.q3_th, .q3_td {
+.q3_table th, td {
   border: 1px solid #dedede;
   padding: 10px;
   vertical-align: middle;
 }
 
-.q3_td {
+.q3_table td {
   font-size: 16px;
   line-height: 22px;
   text-align: center;
 }
 
-.q3_th, .q3_td:first-child{
+.q3_table th, td:first-child{
   color: #ffffff;
   background-color: #2244aa;
   font-size: 18px;
   line-height: 26px;
 }
 
-.q3_tr:nth-child(2n+1) {
+.q3_table tr:nth-child(2n+1) {
   background-color: #ecf1f2;
 }
 
-.q3_tr:last-child {
+.q3_table tr:last-child {
   border-top: 2px dashed #000; 
 }
 
