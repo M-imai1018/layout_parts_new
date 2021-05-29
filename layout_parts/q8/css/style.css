@@ -4,16 +4,34 @@
 
 .q8_main {
   margin: 0 auto;
-  width: 300px;
-  display: block;
+  width: 500px;
+  height: 333px;
+  overflow: hidden;
+  position: relative;
 }
 
 .q8_car {
   transition: all 0.5s ;
 }
 
-.q8_car:hover {
-  width: 150%;
+.mask {
+  transform: scale(1.5);
+  background: linear-gradient(rgba(0, 0, 0, 0),rg
+  transition:all .5s;
 }
+
+
+.letter {
+  position: absolute;
+  color: #fff;
+  font-size: 16px;
+  line-height: 16px;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  word-break: break-all;
+}
+
 
 /* 回答はここに書いてね */
