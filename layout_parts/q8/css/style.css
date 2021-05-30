@@ -3,9 +3,9 @@
 /* 回答はここに書いてね */
 
 .q8_main {
-  margin: 0 auto;
-  width: 500px;
+  width: 500px; 
   height: 333px;
+  margin: 0 auto;
   overflow: hidden;
   position: relative;
 }
@@ -14,12 +14,22 @@
   transition: all 0.5s ;
 }
 
-.mask {
+.q8_main:hover .q8_car {
   transform: scale(1.5);
-  background: linear-gradient(rgba(0, 0, 0, 0),rg
-  transition:all .5s;
 }
 
+.q8_main:hover .mask {
+  bottom: 0;
+}
+
+.mask {
+  position: absolute;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
+  transition: all .5s;
+}
 
 .letter {
   position: absolute;
@@ -33,5 +43,32 @@
   word-break: break-all;
 }
 
+.round {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border:solid 10px #ecf1f2;
+  border-top-color: #00bcd4;
+  margin: 0 auto;
+  animation: eternity 1.1s linear infinite normal backwards;
+  /* animation-name: eternity; 名前
+  animation-duration: 1.1s;　開始から終わり時間
+  animation-timing-function: linear;　ふるまい方
+  animation-iteration-count: infinite;　繰り返し回数
+  animation-direction: normal;　向き
+  animation-fill-mode: backwards;　アニメ終了後のスタイル */
+}
+
+@keyframes eternity {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 /* 回答はここに書いてね */
