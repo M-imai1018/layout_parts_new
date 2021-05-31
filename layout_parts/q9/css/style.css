@@ -2,4 +2,39 @@
 
 /* 回答はここに書いてね */
 
+
+.q9_text {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.q9_speech {
+  position: relative;
+  padding: 20px;
+  width: 500px;
+  border: solid 5px #222;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.q9_speech::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 100%;
+  left: 25.5px;
+  border: 24.8px solid transparent;
+  border-top:25px solid #222;
+}
+
+.q9_speech::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 93%;
+  left: 21.5px;
+  border: 28.8px solid transparent;
+  border-top: 28.8px solid #fff;
+}
+
 /* 回答はここに書いてね */
